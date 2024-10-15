@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Value Added Program - Schedule</title>
+    <style>
+        table {
+            width: 85%; /* Set table width to 85% of the browser window */
+            margin: 0 auto; /* Horizontally center the table */
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: lightgray;
+            font-family: Arial Black;
+            font-size: 14px;
+        }
+        td {
+            background-color: #f2f2f2;
+        }
+        .starting-time {
+            background-color: #add8e6; /* Light Blue */
+        }
+        .ending-time {
+            background-color: #90ee90; /* Light Green */
+        }
+        caption {
+            caption-side: bottom; /* Display caption at the top */
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        tr:hover {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Value Added Program - Schedule</caption>
+        <tr>   
+            <th rowspan="3">DAY</th>
+            <th colspan="3">VALUE ADDED PROGRAM</th> <!-- Spans 3 columns -->
+        </tr>
+        <tr>
+         
+            <th colspan="2">SCHEDULE</th>
+            <th rowspan="2">TITLE</th>
+        </tr>
+        <tr>
+            <th>STARTING TIME</th>
+            <th>ENDING TIME</th>
+        </tr>
+        <tr>
+            <th rowspan="2">WED</th> <!-- WED spans 2 rows -->
+            <td class="starting-time">10 a.m.</td>
+            <td class="ending-time">12:30 p.m.</td>
+            <td>HTML Basics</td>
+        </tr>
+        <tr>
+            <td class="starting-time">1 p.m.</td>
+            <td class="ending-time">4:30 p.m.</td>
+            <td>HTML Text Tags</td>
+        </tr>
+        <tr>
+            <th rowspan="3">FRIDAY</th> <!-- FRIDAY spans 3 rows -->
+            <td class="starting-time">8 a.m.</td>
+            <td class="ending-time">10 a.m.</td>
+            <td>HTML List, Form, Table</td>
+        </tr>
+        <tr>
+            <td class="starting-time">10:15 a.m.</td>
+            <td class="ending-time">12 p.m.</td>
+            <td>HTML Frames</td>
+        </tr>
+        <tr>
+            <td class="starting-time">1 p.m.</td>
+            <td class="ending-time">4:30 p.m.</td>
+            <td>Client-Side Image Mapping</td>
+        </tr>
+    </table>
+
+</body>
+</html>

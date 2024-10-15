@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        h1 {
+            background-color: lightgrey;
+            color: blue;
+            font-size: 24px;
+            font-family: Georgia, serif;
+            font-weight: bold;
+            letter-spacing: 1.6em;
+            word-spacing: 2em;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        h2 {
+            margin-top: 20px;
+            color: darkred;
+            font-size: 18px;
+            font-family: Georgia, serif;
+            font-weight: bold;
+            letter-spacing: 0.1em;
+            text-align: left;
+        }
+
+        /* Float-based layout for years and description */
+        .years {
+            float: left;
+       
+            font-weight: bold;
+        }
+
+        .education-description {
+            float: left;
+            margin-left: 10px;
+            
+        }
+
+        /* Clear the floats after each section */
+        .clear {
+            clear: both;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>CURRICULUM VITAE</h1>
+
+    <h2>PERSONAL DATA</h2>
+    <div class="personal-data">
+        <p><i>Name:</i> Azamat</p>
+        <p><i>Surname:</i> Azamat</p>
+        <p><i>Date of birth:</i> 30.07.74</p>
+        <p><i>Place of birth:</i> Bishkek, Kyrgyzstan</p>
+    </div>
+
+    <!-- Education Section -->
+    <h2>EDUCATION</h2>
+
+    <div>
+        <p class="years">2005-2009</p>
+        <p class="education-description">Computer Engineering in the Technical University of Kyrgyzstan in Bishkek</p>
+        <div class="clear"></div> <!-- Clear floats after each section -->
+    </div>
+
+    <div>
+        <p class="years">2001-2005</p>
+        <p class="education-description">High School "Manas" in Osh</p>
+        <div class="clear"></div> <!-- Clear floats after each section -->
+    </div>
+
+    <div>
+        <p class="years">1995-2001</p>
+        <p class="education-description">Primary school</p>
+        <div class="clear"></div> <!-- Clear floats after each section -->
+    </div>
+
+</body>
+</html>

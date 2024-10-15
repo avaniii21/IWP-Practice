@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My blog about my life</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Main container to hold content */
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+
+        /* Left-side menu */
+        .menu {
+            width: 15%;
+            border-right: 1px solid #ccc;
+            padding-right: 15px;
+        }
+
+        .menu h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .menu ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .menu ul li {
+            margin-bottom: 8px;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        /* Main blog content area */
+        .main-content {
+            width: 70%;
+            padding: 0 20px;
+        }
+
+        .main-content h1 {
+            font-family: Georgia, serif;
+            font-size: 24px;
+            color: yellow;
+            background-color: black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .main-content h2 {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        /* Blog post styling */
+        .blog-post {
+            margin-bottom: 30px;
+        }
+
+        .blog-post h2 {
+            margin: 10px 0;
+        }
+
+        .blog-post p {
+            margin: 5px 0;
+        }
+
+        /* Right-side last posts section */
+        .last-posts {
+            width: 15%;
+            border-left: 1px solid #ccc;
+            padding-left: 15px;
+        }
+
+        .last-posts h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .last-posts ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .last-posts ul li {
+            margin-bottom: 8px;
+        }
+
+        .last-posts ul li a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        /* Contact section */
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .contact a {
+            color: blue;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Main blog header -->
+    <div class="main-content">
+        <h1>My blog about my life</h1>
+    </div>
+
+    <!-- Container for the menu, content, and last posts -->
+    <div class="container">
+        <!-- Menu Section -->
+        <div class="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="#">Today</a></li>
+                <li><a href="#">Yesterday</a></li>
+                <li><a href="#">Last week</a></li>
+                <li><a href="#">Archives</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Blog Content -->
+        <div class="main-content">
+            <!-- First Blog Post -->
+            <div class="blog-post">
+                <h2>Meeting with supervisor</h2>
+                <p><strong>14 Dec 2011</strong></p>
+                <p>Today I went to the university by bus.</p>
+                <p>I had a meeting with my PhD supervisor.</p>
+            </div>
+
+            <!-- Second Blog Post -->
+            <div class="blog-post">
+                <h2>New car!!!</h2>
+                <p><strong>12 Dec 2011</strong></p>
+                <p>Today I bought my new car. It's a Honda Accord and it's really nice.</p>
+                <p>I met some friends at a pub.</p>
+            </div>
+
+            <!-- Third Blog Post -->
+            <div class="blog-post">
+                <h2>Visit my parents</h2>
+                <p><strong>10 Dec 2011</strong></p>
+                <p>Tried to contact my PhD supervisor. He was out of his office.</p>
+                <p>I visited my parents and we had a nice dinner together.</p>
+            </div>
+        </div>
+
+        <!-- Last posts section -->
+        <div class="last-posts">
+            <h2>Last posts</h2>
+            <ul>
+                <li><a href="#">Meeting with supervisor</a></li>
+                <li><a href="#">New car!!!</a></li>
+                <li><a href="#">Visit my parents</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Contact section -->
+    <div class="contact">
+        <p>Contact me: <a href="mailto:email@something.com">email@something.com</a></p>
+    </div>
+
+</body>
+</html>

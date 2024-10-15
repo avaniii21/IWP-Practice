@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		/* Main container styling */
+		.Main {
+			border: 5px solid blue; /* Added proper border style */
+			width: 500px;
+			height: auto; /* Use auto to adjust height according to content */
+			margin: 0 auto; /* Centers the container horizontally */
+			padding: 20px; /* Adds some padding inside the container */
+			text-align: center;
+		}
+
+		/* Navigation bar */
+		.navbar {
+			text-decoration: underline;
+			margin-bottom: 20px; /* Adds spacing below the navbar */
+		}
+
+		/* Vertical line */
+		.vl {
+			border-left: 2px solid blue; /* Vertical line on the left */
+			height: 100px;
+			margin: 0 20px; /* Adds space around the vertical line */
+			display: inline-block; /* Makes the vertical line behave as a block inline with other elements */
+		}
+
+		/* News and Announcements content styling */
+		.content-section {
+			display: inline-block;
+			text-align: left;
+		}
+
+		/* Footer styling */
+		.footer {
+			margin-top: 20px; /* Adds space above the footer */
+		}
+
+		.footer a {
+			color: black;
+			text-decoration: underline;
+		}
+
+	</style>
+</head>
+
+<body>
+	<h1 style="text-align: center;">Home Page</h1>
+
+	<div class="Main">
+		<p><b>Logo - University name</b></p>
+
+		<!-- Navigation bar -->
+		<p class="navbar"> 
+			<span>Presentation</span> 
+			<span>Studies</span> 
+			<span>Staff</span> 
+		</p>
+
+		<!-- Content section: News and Announcements -->
+		<div class="content-section">
+			<p><b>News</b></p>
+			<p>News 1 – Date<br>Description</p>
+			<p>News 2 – Date<br>Description</p>
+		</div>
+
+		<!-- Vertical line separating sections -->
+		<span class="vl"></span>
+
+		<!-- Announcements section -->
+		<div class="content-section">
+			<p><b>Announcements</b></p>
+			<p>Open course 1<br>Description</p>
+			<p>Open course 2<br>Description</p>
+		</div>
+
+		
+
+		<!-- Footer with contact info -->
+		<div class="footer">
+			<p>Contact: <a href="mailto:info@university.com">info@university.com</a></p>
+			<p>&copy; University, 2011</p>
+		</div>
+	</div>
+</body>
+</html>
